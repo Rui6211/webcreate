@@ -1,1 +1,544 @@
-webcreate.css
+* {
+margin: 0 auto;
+padding: 0 auto;
+box-sizing: border-box;
+}
+.clearfix::after {
+content: "";
+display: block;
+clear: both;
+}
+
+header {
+height: 70px;
+width: 100%;
+background-color: #EC715F;
+}
+
+.site {
+width: 1024px;
+height: 70px;
+margin: 0 auto;
+}
+
+.menu {
+width: 25px;
+background-color: red;
+
+}
+.image-logo {
+height: 70px;
+margin: 0 auto;
+float: left;
+}
+.navi {
+text-align: right;
+height: 70px;
+margin: 0 auto;
+padding: 0;
+float: right;
+}
+
+.navi1 {
+font-size: 16px;
+line-height: 70px;
+color: #FAFAFA;
+list-style:none;
+margin: 0 30px;
+display: inline-block;
+}
+.navi2 {
+font-size: 16px;
+line-height: 70px;
+color: #FAFAFA;
+list-style:none;
+margin: 0 30px;
+display: inline-block;
+}
+.navi3 {
+font-size: 16px;
+line-height: 70px;
+color: #FAFAFA;
+list-style:none;
+margin: 0 30px;
+display: inline-block;
+}
+.navi4 {
+font-size: 16px;
+line-height: 70px;
+color: #FAFAFA;
+list-style:none;
+margin: 0 30px;
+display: inline-block;
+}
+.main-visual {
+background-image: url(img/mv.png);
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 650px;
+}
+.main-v-text {
+width: 1024px;
+padding-top: 200px;
+text-align: center;
+}
+.main-v-text {
+font-size: 64px;
+color: #FAFAFA;
+}
+.text1 {
+font-size: 20px;
+color:#FAFAFA;
+margin-top: 10px;
+text-align: center;
+}
+.Portbox {
+background-color: #ECEFF1;
+height: 100%
+
+}
+.Portbox1 {
+width: 920px;
+padding-top: 90px;
+}
+.Portbox2 {
+font-size: 32px;
+color:#000000;
+text-align: center;
+}
+.Portbox2::after {
+content: "";
+display: block;
+height: 3px;
+width: 70px;
+background-color: #EC715F;
+margin: 8px auto 0;
+}
+.Porttext {
+font-size: 16px;
+color: #000000;
+margin-top: 30px;
+text-align: center;
+}
+.Portimage {
+width: 920px;
+margin: 30px auto 90px;
+}
+.Portimagebox {
+float: left;
+height: 250px;
+width: 300px;
+background-size: cover;
+background-position: center;
+}
+.Portimagebox:nth-child(1){
+background-image: url(img/sketch.jpg);
+margin: 0 10px 10px 0;
+}
+.Portimagebox:nth-child(2){
+background-image: url(img/websuku.png);
+margin: 0 10px 10px 0;
+}
+.Portimagebox:nth-child(3){
+background-image: url(img/write.jpg);
+margin: 0 0 10px 0;
+}
+.Portimagebox:nth-child(4){
+background-image: url(img/webcamp.png);
+margin: 0 10px 0 0;
+}
+.Portimagebox:nth-child(5){
+background-image: url(img/talk.jpg);
+margin: 0 10px 0 0;
+}
+.Portimagebox:nth-child(6){
+background-image: url(img/webcamp-mother.png);
+}
+.Feature {
+width: 100%;
+height: 100%;
+}
+.Featurebox {
+width: 980px;
+height: 100%;
+}
+.Featurebox1 {
+font-size: 32px;
+color: #000000;
+margin-top: 90px;
+text-align: center;
+}
+.Featurebox1::after{
+content: "";
+display: block;
+height: 3px;
+width: 70px;
+background-color: #EC715F;
+margin: 8px auto 0;
+}
+.Featurebox2 {
+font-size: 16px;
+color: #000000;
+margin-top: 30px;
+text-align: center;
+}
+.icontext {
+width: 980px;
+margin: 30px 0 90px 0;
+float: left;
+}
+.icon {
+text-align: left;
+float: left;
+width: 320px;
+margin-right: 10px;
+}
+.icon:last-child {
+margin-right: 0;
+}
+.iconsize {
+font-size: 60px;
+text-align: center;
+}
+.St1 {
+text-align: center;
+padding: 10px 0;
+font-size: 20px;
+}
+.Stext {
+font-size: 16px;
+color: #000000;
+}
+.Profile {
+height: 100%;
+width: 100%;
+background-color: #ECEFF1;
+}
+.Profilebox {
+height: 100%;
+width: 1024px;
+}
+.Profilebox1 {
+font-size: 32px;
+color: #000000;
+padding-top: 90px;
+text-align: center;
+}
+.Profilebox1::after{
+content: "";
+display: block;
+height: 3px;
+width: 70px;
+background-color: #EC715F;
+margin: 8px auto 0;
+}
+.Profilebox2 {
+font-size: 16px;
+color: #000000;
+text-align: center;
+margin-top: 30px;
+}
+.Profilebox3 {
+padding: 30px 0 90px 0;
+}
+.Profilephoto {
+width: 50%;
+float: left;
+}
+.photo {
+height: 250px;
+width: 250px;
+border-radius: 50%;
+margin: margin: 0 auto;
+background-image: url(img/my-icon.jpg);
+}
+.Profilebox4 {
+width: 50%;
+float: left;
+}
+.mine {
+font-size: 20px;
+
+}
+.nametext {
+font-size: 16px;
+color: #000000;
+padding-top: 5px;
+text-align: left;
+}
+.Profilebox5 {
+width: 50px;
+float: left;
+}
+.skill {
+font-size: 20px;
+padding-top: 20px;
+}
+.skilltext {
+margin-top: 5px;
+font-size: 16px;
+color: #000000;
+}
+.Contact {
+height: 100%;
+width: 100%;
+}
+.contactbox {
+height: 100%;
+width: 800px;
+}
+.contactbox1 {
+font-size: 32px;
+color: #000000;
+padding-top: 90px;
+text-align: center;
+}
+.contactbox1::after{
+content: "";
+display: block;
+height: 3px;
+width: 70px;
+background-color: #EC715F;
+margin: 8px auto 0;
+}
+.contactbox2 {
+font-size: 16px;
+color: #000000;
+text-align: center;
+margin: 30px 0;
+}
+.subbox {
+width: 800px;
+height: 100%;
+padding-bottom: 90px;
+}
+.contactbox3 {
+width: 400px;
+float: left;
+}
+.conect {
+width: 400px;
+margin: 0 auto;
+}
+.mail {
+margin: 0 auto;
+font-size: 20px;
+width: 130px;
+}
+.mailtext {
+margin-top: 5px;
+width: 130px;
+}
+.tell {
+margin-top: 20px;
+font-size: 20px;
+width: 130px;
+}
+.telltext {
+margin-top: 5px;
+width: 130px;
+}
+.snsbox {
+width: 250px;
+float: right;
+}
+.snsbox1 {
+font-size: 20px;
+margin-bottom: 5px;
+}
+.snsbox i{
+font-size: 50px;
+margin-right: 20px;
+}
+footer {
+background-color: #EC715F;
+height: 60px;
+width: 100%;
+}
+.foot {
+font-size: 16px;
+color: #FAFAFA;
+margin: 0 auto;
+text-align: center;
+line-height: 50px;
+}
+@media screen and (max-width: 767px){
+
+header {
+height: 50px;
+}
+
+.site {
+width: 90%;
+}
+
+.image-logo {
+height: 50px;
+}
+
+.menubox {
+width: 90px;
+float: right;
+border: solid 1px white;
+margin: 5px 0;
+height: 40px;
+width: 40px;
+}
+
+.menu {
+display: block;
+background-color: white;
+width: 20px;
+height: 2px;
+margin: 8px 10px;
+}
+
+.navi {
+display: none;
+}
+
+.main-visual {
+width: 100%;
+background-image: url(img/code.png);
+}
+
+.main-v-text {
+font-size: 40px;
+width: 90%;
+}
+
+.text1 {
+margin-top: 10px;
+font-size: 18px;
+color: #FAFAFA;
+}
+
+.Portbox {
+width: 100%;
+padding: 0 5%;
+}
+
+.Portbox1 {
+width: 90%;
+}
+
+.Portbox2 {
+width: 90%;
+font-size: 32px;
+text-align: center;
+color: #000000;
+}
+
+.Porttext {
+font-size: 16px;
+color: #000000;
+margin: 30px 0;
+}
+
+.Portimage {
+width: 300px;
+}
+
+.Portimagebox:nth-child(odd) {
+display: none;
+}
+
+.Portimagebox {
+background-image: url(img/websuku.png);
+width: 300px;
+height: 250px;
+}
+
+.Portimagebox {
+background-image: url(img/webcamp.png);
+width: 300px;
+height: 250px;
+margin-top: 10px;
+}
+
+.Portimagebox {
+background-image: url(img/webcamp-mother.png);
+width: 300px;
+height: 250px;
+margin-top: 10px;
+}
+
+.Feature {
+width: 100%;
+padding: 0 5%;
+}
+
+.Featurebox{
+width: 90%;
+}
+
+.icontext {
+width: 100%;
+padding: 0 5%;
+}
+
+.icon {
+width: 90%;
+}
+
+.Profile {
+width: 100%;
+padding: 0 5%;
+}
+
+.Profilebox {
+width: 90%;
+}
+
+.Profilephoto {
+width: 100%;
+}
+
+.Profilebox4 {
+width: 100%;
+}
+
+.mine {
+margin: 20px 0 5px 0;
+text-align: center;
+}
+
+.Profilebox5 {
+width: 100%;
+text-align: center;
+}
+
+.skill {
+margin: 20px 0 5px 0;
+}
+.Contact {
+width: 100%;
+padding: 0 5%;
+}
+
+.contactbox {
+width: 90%;
+}
+
+.contactbox3 {
+text-align: center;
+}
+
+.subbox {
+width: 90%;
+text-align: center;
+}
+
+.foot {
+width: 100%;
+padding: 0 5%;
+height: 60px;
+}
+
+.snsbox {
+width: 100%;
+text-align: center;
+margin-top: 20px;
+}
+}
